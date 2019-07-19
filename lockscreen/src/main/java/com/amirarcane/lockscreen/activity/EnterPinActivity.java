@@ -175,6 +175,10 @@ public class EnterPinActivity extends AppCompatActivity {
         mIndicatorDots.setIndicatorType(IndicatorDots.IndicatorType.FILL_WITH_ANIMATION);
 
         checkForFont();
+        
+        
+        // no fingerprint
+          mImageViewFingerView.setVisibility(View.GONE);
     }
 
     private void checkForFont() {
